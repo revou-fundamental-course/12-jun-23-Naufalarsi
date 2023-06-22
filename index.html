@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Konversi Suhu</title>
+</head>
+
+<!-- PROJECT KALKULATOR KONVERSI SUHU -->
+<body>
+    <header>
+        <h1>KALKULATOR KONVERSI SUHU</h1>
+    </header>
+    <hr>
+        <section>
+            <center>
+                <p>Alat konversi suhu Celsius (°C) ke dalam bentuk Fahrenheit (°F) Atau 
+    <br>
+                konversi suhu Fahrenheit (°F) ke dalam bentuk Celsius (°C).</p>
+            <div>
+                <input type="text" name="celcius" class="box1" id="cel-equal" placeholder="Celsius (°C)">
+            </div>
+    <br>
+            <div class="divbutton1">
+                <button id="buttondo-konversi" onclick="konversi(event)">Konversi (°C)</button>
+                <button id="buttondo-reset" onclick="reset(event)" >Reset</button>
+                <button id="buttondo-reverse" onclick="reverse(event)">Reverse (°F)</button>
+            </div>
+            <div>
+                <input type="text" name="fahrenheit" class="box1" id="fahren-equal" placeholder="Fahrenheit (°C)">
+            </div>
+            <div class="hasil-kalkulasi">
+                <input disabled name="result-step" class="box1" id="res-equal" placeholder="Pengerjaan">
+            </div>
+    
+            <h3>Cara Konversinya Yaitu :</h3>
+    <hr>
+            <div>
+                <p>Suhu <b><i>S</i></b> dalam derajat Fahrenheit (°F) dengan suhu <b><i>S</i></b> dalam Celsius (°C)</p>
+                <p><b><i>S</i></b><sub>(°F)</sub>=(9/5 &#215; <b><i>S</i></b><sub>(°C)</sub>) + 32</p>
+                <span>atau</span>
+                <p><b><i>S</i></b><sub>(°C)</sub>=(<b><i>S</i></b><sub>(°F)</sub> - 32) &#215; 5/9</p>
+            </div>
+            </center>
+        </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>
